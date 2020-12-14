@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+  background-color: #ed553b;
+  color: #ed553b;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  color: "green";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div#quote-box {
+  width: 400px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 32px 64px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p#text {
+  font-size: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+svg {
+  padding-right: 8px;
+}
+
+p#author {
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+button#new-quote {
+  padding: 8px 16px;
+  background-color: #ed553b;
   color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.9;
 }
 
-.App-link {
-  color: #61dafb;
+a#tweet-quote {
+  color: #ed553b;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div#buttonGroups {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
