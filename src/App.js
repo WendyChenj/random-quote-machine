@@ -24,6 +24,7 @@ function App() {
     document.body.style.backgroundColor = randomColor;
     document.getElementById("new-quote").style.backgroundColor  = randomColor;
     document.body.style.color  = randomColor;
+    document.getElementById("tweet-quote").style.color  = randomColor;
     });
   }
 
@@ -32,7 +33,7 @@ function App() {
   return (
     <div id='quote-box'>
       <p id='text'>
-        <FontAwesomeIcon icon={faQuoteLeft} />
+        <FontAwesomeIcon icon={faQuoteLeft} id="icon" />
         {text}
       </p>
       <p id='author'>

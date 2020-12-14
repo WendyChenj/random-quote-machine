@@ -24,12 +24,6 @@ p#text {
 
 svg {
   padding-right: 8px;
-  color: #ed553b;
-}
-
-path {
-  color: #ed553b;
-  background-color: #ed553b;
 }
 
 p#author {
@@ -51,7 +45,7 @@ button:hover {
 }
 
 a#tweet-quote {
-  color: black;
+  color: #ed553b;
   text-decoration: none;
 }
 
