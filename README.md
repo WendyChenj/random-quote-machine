@@ -10,4 +10,4 @@ This project is built using React, HTML and CSS.
 
 2. Randomly change the background color of the page when the quote changes.
 
-3. Be able to tweet the current quote by clicking the 'Twitter' link.
+3. Be able to tweet the current quote by clicking the twitter icon.
