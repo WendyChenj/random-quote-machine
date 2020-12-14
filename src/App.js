@@ -19,8 +19,7 @@ function App() {
     const id = Math.floor(Math.random() * quotesLen);
     setText(res[id].text);
     setAuthor(res[id].author);
-     const randomColor = `rgb(${Math.floor(Math.random()* 255)}, ${Math.floor(Math.random()* 255)}, ${Math.floor(Math.random()* 255)})`;
-    console.log(randomColor);
+    const randomColor = `rgb(${Math.floor(Math.random()* 255)}, ${Math.floor(Math.random()* 255)}, ${Math.floor(Math.random()* 255)})`;
     document.body.style.backgroundColor = randomColor;
     document.getElementById("new-quote").style.backgroundColor  = randomColor;
     document.body.style.color  = randomColor;
