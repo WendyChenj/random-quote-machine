@@ -11,3 +11,7 @@ This project is built using React, HTML and CSS.
 2. Randomly change the background color of the page when the quote changes.
 
 3. Be able to tweet the current quote by clicking the twitter icon.
+
+### Demo
+
+<img src="https://github.com/WendyChenj/random-quote-machine/tree/master/demo">
