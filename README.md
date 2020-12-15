@@ -14,4 +14,4 @@ This project is built using React, HTML and CSS.
 
 ### Demo
 
-<img src="https://github.com/WendyChenj/random-quote-machine/tree/master/demo">
+<img src="https://github.com/WendyChenj/random-quote-machine/blob/master/demo/video-quote-generator.gif">
