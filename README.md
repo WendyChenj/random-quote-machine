@@ -1,6 +1,6 @@
 # Random Quote Machine
 
-Project 1 of Front End Libraries from freeCodeCamp.
+Project 1 from freeCodeCamp.
 
 This project is built using React, HTML and CSS.
 
